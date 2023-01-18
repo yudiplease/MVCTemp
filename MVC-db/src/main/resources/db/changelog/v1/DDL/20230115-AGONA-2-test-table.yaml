@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: '1'
+      author: Pleshev Ilya
+      preConditions:
+        - onFail: HALT
+        - not:
+            - tableExists:
+                tableName: test_table
+      changes:
+        - createTable:
+            tableName: test_table
+            columns:
+              - column:
+                  name: id
+                  type: uuid
+              - column:
+                  name: test
+                  type: varchar(255)

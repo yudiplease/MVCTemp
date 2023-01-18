@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <include file="DDL/20230114-AGONA-1-create-init-db.xml" relativeToChangelogFile="true"/>
+    <include file="DDL/20230114-AGONA-2-add-column-to-user.xml" relativeToChangelogFile="true"/>
+    <include file="DDL/20230114-AGONA-2-add-extension.xml" relativeToChangelogFile="true"/>
+    <include file="DML/20230114-AGONA-2-insert-new-users.xml" relativeToChangelogFile="true"/>
+    <include file="DDL/20230115-AGONA-2-test-table.yaml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

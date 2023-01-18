@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mvc-db:
+    container_name: mvc-db
+    image: postgres:12-alpine
+    restart: on-failure
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: dreges228
+      POSTGRES_DB: mvc-db
+
+  rabbitmq:
+    image: rabbitmq:3.9.5-management
+    restart: on-failure
+    ports:
+      - 5672:5672
+      - 15672:15672

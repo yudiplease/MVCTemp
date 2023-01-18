@@ -1,0 +1,9 @@
+db:
+  url: jdbc:postgresql://localhost:5432/mvc-db
+  username: postgres
+  password: dreges228
+  hikari:
+    max-pool-size: 10
+  driver:
+    classname: org.postgresql.Driver
+

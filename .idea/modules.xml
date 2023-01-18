@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVC-api/MVC.MVC-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MVC-api/MVC.MVC-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MVC-impl/MVC.MVC-impl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MVC-impl/MVC.MVC-impl.main.iml" />
+    </modules>
+  </component>
+</project>

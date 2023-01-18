@@ -1,0 +1,5 @@
+rootProject.name = 'MVC'
+include 'MVC-api'
+include 'MVC-db'
+include 'MVC-impl'
+
